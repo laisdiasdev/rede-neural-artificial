@@ -1,2 +1,13 @@
-# rede-neural-artificial
-Este projeto implementa uma rede neural do tipo Perceptron Multicamadas (MLP) para reconhecimento automático de dígitos manuscritos, utilizando o dataset MNIST. O modelo foi treinado com validação split e técnicas anti-overfitting.
+# Reconhecimento de Dígitos Manuscritos com Redes Neurais  
+
+Este projeto implementa uma rede neural **MLP (Multilayer Perceptron)** para reconhecer dígitos manuscritos do dataset MNIST, utilizando aprendizado supervisionado com correção de erro (*backpropagation*).  
+
+## 📌 Resultados  
+- **Acurácia no teste**: acima de 90% (dados nunca vistos).  
+- **Técnicas anti-overfitting**: Validação cruzada (`validation_split=0.2`) e *EarlyStopping*.  
+- **Tempo de treinamento**: ~10 épocas (com parada antecipada).  
+
+## 🛠️ Tecnologias  
+- **Linguagem**: Python 3.8+  
+- **Bibliotecas**: TensorFlow, Keras, NumPy, Matplotlib  
+- **Dataset**: MNIST (60k imagens de treino + 10k de teste).  
